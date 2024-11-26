@@ -1,0 +1,56 @@
+
+name: UI Tests
+
+on: workflow_dispatch
+
+jobs:
+  ui-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      # Шаг 1 - Копируем gh-pages на раннер
+      - name: Checkout (copy) gh-pages repo to runner
+        uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+          path: ./.github/gh-pages
+
+      # Шаг 2 - Подготовка окружения в Allure-отчете
+      - name: Prepare Allure environment
+        run: |
+          mkdir -p allure-results # Создает директорию для результатов Allure.
+          echo "Branch=${GITHUB_REF_NAME}" > allure-results/environment.properties # Сохраняет имя ветки.
+          echo "Commit=${GITHUB_SHA}" >> allure-results/environment.properties # Сохраняет SHA коммита.
+          # Создает executor.json с детальной информацией о среде выполнения.
+          echo "{\"name\": \"GitHub Actions\", \"type\": \"github\", \"url\": \"${{ github.server_url }}/${{ github.repository }}\", \"buildOrder\": ${{ github.run_number }}, \"buildName\": \"${{ github.run_id }}\", \"buildUrl\": \"${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\", \"reportUrl\": \"https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/\", \"reportName\": \"Allure Report\"}" > allure-results/executor.json
+
+      # Шаг 3 - Запуск тестов
+      - name: Run tests via docker-compose
+        env:
+          BROWSER: ${{ vars.BROWSER }}
+          STAGE: ${{ vars.STAGE }}
+        run: |
+          docker-compose up regression
+
+      # Шаг 4 - Копирование истории
+      - name: Copy Allure history
+        run: |
+          mkdir -p allure-results/history
+          if [ -d "./.github/gh-pages/history" ]; then
+            cp -R ./.github/gh-pages/history/* allure-results/history/
+          fi
+
+      # Шаг 5 - Генерация отчета
+      - name: Generate Allure-report
+        run: |
+          docker-compose up report
+
+      # Шаг 6 - Деплой на gh-pages
+      - name: Deploy to Github Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.5
+        with:
+          token: ${{ secrets.CI_TOKEN }}
+          branch: gh-pages
+          folder: allure-report
+          clean: false
