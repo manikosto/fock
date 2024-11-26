@@ -1,10 +1,10 @@
 [ {
-  "values" : [ "" ],
+  "values" : [ "main" ],
   "name" : "Branch"
 }, {
-  "values" : [ "" ],
+  "values" : [ "46e8cffd0bdc39ef1a6e91bddfb57a13f89f4ea2" ],
   "name" : "Commit"
 }, {
-  "values" : [ "" ],
+  "values" : [ "chrome" ],
   "name" : "Browser"
 } ]

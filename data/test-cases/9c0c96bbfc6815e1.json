@@ -1,0 +1,239 @@
+{
+  "uid" : "9c0c96bbfc6815e1",
+  "name" : "Create and post new content for all roles",
+  "fullName" : "tests.user_tests.test_example.TestExample#test_create_and_post_new_content_for_all_roles",
+  "historyId" : "3b85a746ec9c7992b66887ecc41ff016",
+  "time" : {
+    "start" : 1732637623509,
+    "stop" : 1732637631424,
+    "duration" : 7915
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1732637622640,
+      "stop" : 1732637623509,
+      "duration" : 869
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestExample",
+    "time" : {
+      "start" : 1732637623509,
+      "stop" : 1732637623509,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open page: https://demo.opensource-socialnetwork.org/login",
+      "time" : {
+        "start" : 1732637623510,
+        "stop" : 1732637624089,
+        "duration" : 579
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Login as admin",
+      "time" : {
+        "start" : 1732637624089,
+        "stop" : 1732637625933,
+        "duration" : 1844
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Write new post",
+      "time" : {
+        "start" : 1732637625933,
+        "stop" : 1732637626316,
+        "duration" : 383
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aa62d0da2080ac57",
+        "name" : "example",
+        "source" : "aa62d0da2080ac57.png",
+        "type" : "image/png",
+        "size" : 269967
+      } ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "'I'm ADMIN'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Post",
+      "time" : {
+        "start" : 1732637626316,
+        "stop" : 1732637626424,
+        "duration" : 108
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1732637631433,
+      "stop" : 1732637631517,
+      "duration" : 84
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestExample::0",
+    "time" : {
+      "start" : 1732637631432,
+      "stop" : 1732637631432,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.user_tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_example"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExample"
+  }, {
+    "name" : "host",
+    "value" : "d3837dfe5735"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.user_tests.test_example"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "message",
+    "value" : "'I'm ADMIN'"
+  }, {
+    "name" : "role",
+    "value" : "'admin'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "41148d6ca201bab0",
+        "reportUrl" : "https://manikosto.github.io/fock//#testresult/41148d6ca201bab0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1732637470163,
+          "stop" : 1732637478790,
+          "duration" : 8627
+        }
+      }, {
+        "uid" : "861c43baa7e694c0",
+        "reportUrl" : "https://manikosto.github.io/fock//#testresult/861c43baa7e694c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1732637268357,
+          "stop" : 1732637277220,
+          "duration" : 8863
+        }
+      }, {
+        "uid" : "4f1cba030d2d1080",
+        "reportUrl" : "https://manikosto.github.io/fock//#testresult/4f1cba030d2d1080",
+        "status" : "passed",
+        "time" : {
+          "start" : 1732637010957,
+          "stop" : 1732637019514,
+          "duration" : 8557
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9c0c96bbfc6815e1.json",
+  "parameterValues" : [ "'I'm ADMIN'", "'admin'" ]
+}
