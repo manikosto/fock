@@ -31,7 +31,7 @@ jobs:
           BROWSER: ${{ vars.BROWSER }}
           STAGE: ${{ vars.STAGE }}
         run: |
-          docker-compose up regression
+          docker compose up tests
 
       # Шаг 4 - Копирование истории
       - name: Copy Allure history
@@ -44,7 +44,7 @@ jobs:
       # Шаг 5 - Генерация отчета
       - name: Generate Allure-report
         run: |
-          docker-compose up report
+          docker compose up report
 
       # Шаг 6 - Деплой на gh-pages
       - name: Deploy to Github Pages
