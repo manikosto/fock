@@ -1,0 +1,276 @@
+{
+  "uid" : "49ce7c760193785e",
+  "name" : "Create post",
+  "fullName" : "tests.user_tests.test_example.TestExample#test_create_post",
+  "historyId" : "05b3f6d2208bc9cb1280b456aa0ade5d",
+  "time" : {
+    "start" : 1732638395465,
+    "stop" : 1732638398109,
+    "duration" : 2644
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestExample",
+    "time" : {
+      "start" : 1732638395464,
+      "stop" : 1732638395465,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1732638394611,
+      "stop" : 1732638395464,
+      "duration" : 853
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open page: https://demo.opensource-socialnetwork.org/login",
+      "time" : {
+        "start" : 1732638395466,
+        "stop" : 1732638395771,
+        "duration" : 305
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Login as admin",
+      "time" : {
+        "start" : 1732638395771,
+        "stop" : 1732638397546,
+        "duration" : 1775
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Write new post",
+      "time" : {
+        "start" : 1732638397546,
+        "stop" : 1732638397943,
+        "duration" : 397
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a52390f86d349b27",
+        "name" : "example",
+        "source" : "a52390f86d349b27.png",
+        "type" : "image/png",
+        "size" : 268103
+      } ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "'I'm ADMIN'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Post",
+      "time" : {
+        "start" : 1732638397943,
+        "stop" : 1732638398109,
+        "duration" : 166
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Mark post as admin",
+      "time" : {
+        "start" : 1732638398109,
+        "stop" : 1732638398109,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestExample::0",
+    "time" : {
+      "start" : 1732638398110,
+      "stop" : 1732638398110,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1732638398111,
+      "stop" : 1732638398185,
+      "duration" : 74
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.user_tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_example"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExample"
+  }, {
+    "name" : "host",
+    "value" : "7eb6ff283e19"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.user_tests.test_example"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "message",
+    "value" : "'I'm ADMIN'"
+  }, {
+    "name" : "role",
+    "value" : "'admin'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "dc73f757d718b181",
+        "reportUrl" : "https://manikosto.github.io/fock//#testresult/dc73f757d718b181",
+        "status" : "passed",
+        "time" : {
+          "start" : 1732637963871,
+          "stop" : 1732637966604,
+          "duration" : 2733
+        }
+      }, {
+        "uid" : "e1b8231072b391cf",
+        "reportUrl" : "https://manikosto.github.io/fock//#testresult/e1b8231072b391cf",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'Тема' == 2",
+        "time" : {
+          "start" : 1732637632346,
+          "stop" : 1732637635088,
+          "duration" : 2742
+        }
+      }, {
+        "uid" : "b4b45dbb3ac0493f",
+        "reportUrl" : "https://manikosto.github.io/fock//#testresult/b4b45dbb3ac0493f",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'Тема' == 2",
+        "time" : {
+          "start" : 1732637479732,
+          "stop" : 1732637482923,
+          "duration" : 3191
+        }
+      }, {
+        "uid" : "251dc402da479b3d",
+        "reportUrl" : "https://manikosto.github.io/fock//#testresult/251dc402da479b3d",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'Тема' == 2",
+        "time" : {
+          "start" : 1732637278173,
+          "stop" : 1732637281251,
+          "duration" : 3078
+        }
+      }, {
+        "uid" : "3032db4965e274b2",
+        "reportUrl" : "https://manikosto.github.io/fock//#testresult/3032db4965e274b2",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'Тема' == 2",
+        "time" : {
+          "start" : 1732637020461,
+          "stop" : 1732637023239,
+          "duration" : 2778
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "49ce7c760193785e.json",
+  "parameterValues" : [ "'I'm ADMIN'", "'admin'" ]
+}
