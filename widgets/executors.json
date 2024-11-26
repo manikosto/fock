@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://github.com/manikosto/fock",
+  "buildOrder" : 2,
+  "buildName" : "12034455383",
+  "buildUrl" : "https://github.com/manikosto/fock/actions/runs/12034455383",
+  "reportName" : "Allure Report",
+  "reportUrl" : "https://manikosto.github.io/fock/"
+} ]

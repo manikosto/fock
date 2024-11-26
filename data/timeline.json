@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "3369e8710b06",
+    "children" : [ {
+      "name" : "1-MainThread",
+      "children" : [ {
+        "name" : "Create post",
+        "uid" : "3032db4965e274b2",
+        "parentUid" : "f18ad1f7d6f135702d38162f8635861f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1732637020461,
+          "stop" : 1732637023239,
+          "duration" : 2778
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'I'm ADMIN'", "'admin'" ]
+      }, {
+        "name" : "Create and post new content for all roles",
+        "uid" : "4f1cba030d2d1080",
+        "parentUid" : "f18ad1f7d6f135702d38162f8635861f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1732637010957,
+          "stop" : 1732637019514,
+          "duration" : 8557
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'I'm ADMIN'", "'admin'" ]
+      } ],
+      "uid" : "f18ad1f7d6f135702d38162f8635861f"
+    } ],
+    "uid" : "29ca7aa97be3802950b8337895a26588"
+  } ],
+  "name" : "timeline"
+}

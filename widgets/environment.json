@@ -1,0 +1,10 @@
+[ {
+  "values" : [ "" ],
+  "name" : "Branch"
+}, {
+  "values" : [ "" ],
+  "name" : "Commit"
+}, {
+  "values" : [ "" ],
+  "name" : "Browser"
+} ]

@@ -1,0 +1,9 @@
+[ {
+  "buildOrder" : 2,
+  "reportUrl" : "https://manikosto.github.io/fock/",
+  "reportName" : "Allure Report",
+  "data" : {
+    "run" : 2,
+    "retry" : 0
+  }
+} ]

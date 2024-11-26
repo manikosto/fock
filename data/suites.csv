@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Tue Nov 26 16:03:40 GMT 2024","Tue Nov 26 16:03:43 GMT 2024","2778","tests.user_tests","test_example","TestExample","","","Create post",""
+"passed","Tue Nov 26 16:03:30 GMT 2024","Tue Nov 26 16:03:39 GMT 2024","8557","tests.user_tests","test_example","TestExample","","","Create and post new content for all roles",""

@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests.user_tests",
+    "children" : [ {
+      "name" : "test_example",
+      "children" : [ {
+        "name" : "TestExample",
+        "children" : [ {
+          "name" : "Create and post new content for all roles",
+          "uid" : "4f1cba030d2d1080",
+          "parentUid" : "9d19d721012a4add1e5655b9ff8a4381",
+          "status" : "passed",
+          "time" : {
+            "start" : 1732637010957,
+            "stop" : 1732637019514,
+            "duration" : 8557
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'I'm ADMIN'", "'admin'" ]
+        }, {
+          "name" : "Create post",
+          "uid" : "3032db4965e274b2",
+          "parentUid" : "9d19d721012a4add1e5655b9ff8a4381",
+          "status" : "failed",
+          "time" : {
+            "start" : 1732637020461,
+            "stop" : 1732637023239,
+            "duration" : 2778
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'I'm ADMIN'", "'admin'" ]
+        } ],
+        "uid" : "9d19d721012a4add1e5655b9ff8a4381"
+      } ],
+      "uid" : "5c59ed0cf4e10a9e634963ac79b60bde"
+    } ],
+    "uid" : "45406c0489bc3e1d2bc02d82fd5bc2b3"
+  } ],
+  "name" : "suites"
+}

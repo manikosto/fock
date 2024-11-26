@@ -1,0 +1,21 @@
+[ {
+  "uid" : "3032db4965e274b2",
+  "name" : "Create post",
+  "time" : {
+    "start" : 1732637020461,
+    "stop" : 1732637023239,
+    "duration" : 2778
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f1cba030d2d1080",
+  "name" : "Create and post new content for all roles",
+  "time" : {
+    "start" : 1732637010957,
+    "stop" : 1732637019514,
+    "duration" : 8557
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

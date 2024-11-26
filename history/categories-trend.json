@@ -1,0 +1,8 @@
+[ {
+  "buildOrder" : 2,
+  "reportUrl" : "https://manikosto.github.io/fock/",
+  "reportName" : "Allure Report",
+  "data" : {
+    "Product defects" : 1
+  }
+} ]
