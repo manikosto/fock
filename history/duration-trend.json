@@ -1,4 +1,11 @@
 [ {
+  "buildOrder" : 3,
+  "reportUrl" : "https://manikosto.github.io/fock/",
+  "reportName" : "Allure Report",
+  "data" : {
+    "duration" : 12894
+  }
+}, {
   "buildOrder" : 2,
   "reportUrl" : "https://manikosto.github.io/fock/",
   "reportName" : "Allure Report",
