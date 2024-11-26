@@ -6,13 +6,13 @@
       "name" : "AssertionError: assert 'Тема' == 2",
       "children" : [ {
         "name" : "Create post",
-        "uid" : "251dc402da479b3d",
+        "uid" : "b4b45dbb3ac0493f",
         "parentUid" : "00a4bbb0f06e1d1bae37477087ac09f0",
         "status" : "failed",
         "time" : {
-          "start" : 1732637278173,
-          "stop" : 1732637281251,
-          "duration" : 3078
+          "start" : 1732637479732,
+          "stop" : 1732637482923,
+          "duration" : 3191
         },
         "flaky" : false,
         "newFailed" : false,

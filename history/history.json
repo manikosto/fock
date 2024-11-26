@@ -1,14 +1,24 @@
 {
   "05b3f6d2208bc9cb1280b456aa0ade5d" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "b4b45dbb3ac0493f",
+      "reportUrl" : "https://manikosto.github.io/fock//#testresult/b4b45dbb3ac0493f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'Тема' == 2",
+      "time" : {
+        "start" : 1732637479732,
+        "stop" : 1732637482923,
+        "duration" : 3191
+      }
+    }, {
       "uid" : "251dc402da479b3d",
       "reportUrl" : "https://manikosto.github.io/fock//#testresult/251dc402da479b3d",
       "status" : "failed",
@@ -35,11 +45,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "41148d6ca201bab0",
+      "reportUrl" : "https://manikosto.github.io/fock//#testresult/41148d6ca201bab0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1732637470163,
+        "stop" : 1732637478790,
+        "duration" : 8627
+      }
+    }, {
       "uid" : "861c43baa7e694c0",
       "reportUrl" : "https://manikosto.github.io/fock//#testresult/861c43baa7e694c0",
       "status" : "passed",
