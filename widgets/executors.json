@@ -2,9 +2,9 @@
   "name" : "GitHub Actions",
   "type" : "github",
   "url" : "https://github.com/manikosto/fock",
-  "buildOrder" : 5,
-  "buildName" : "12034641644",
-  "buildUrl" : "https://github.com/manikosto/fock/actions/runs/12034641644",
+  "buildOrder" : 6,
+  "buildName" : "12034735787",
+  "buildUrl" : "https://github.com/manikosto/fock/actions/runs/12034735787",
   "reportName" : "Allure Report",
   "reportUrl" : "https://manikosto.github.io/fock/"
 } ]

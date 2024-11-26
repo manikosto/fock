@@ -1,39 +1,39 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "d3837dfe5735",
+    "name" : "2574d901a7c3",
     "children" : [ {
       "name" : "1-MainThread",
       "children" : [ {
         "name" : "Create post",
-        "uid" : "e1b8231072b391cf",
-        "parentUid" : "a09e642b77d4637be1ff95ef99f5676e",
-        "status" : "failed",
+        "uid" : "dc73f757d718b181",
+        "parentUid" : "75d6efc547d2125fa1f3557704dd47c2",
+        "status" : "passed",
         "time" : {
-          "start" : 1732637632346,
-          "stop" : 1732637635088,
-          "duration" : 2742
+          "start" : 1732637963871,
+          "stop" : 1732637966604,
+          "duration" : 2733
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'I'm ADMIN'", "'admin'" ]
       }, {
         "name" : "Create and post new content for all roles",
-        "uid" : "9c0c96bbfc6815e1",
-        "parentUid" : "a09e642b77d4637be1ff95ef99f5676e",
+        "uid" : "c114360b6ade3d94",
+        "parentUid" : "75d6efc547d2125fa1f3557704dd47c2",
         "status" : "passed",
         "time" : {
-          "start" : 1732637623509,
-          "stop" : 1732637631424,
-          "duration" : 7915
+          "start" : 1732637954575,
+          "stop" : 1732637962929,
+          "duration" : 8354
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'I'm ADMIN'", "'admin'" ]
       } ],
-      "uid" : "a09e642b77d4637be1ff95ef99f5676e"
+      "uid" : "75d6efc547d2125fa1f3557704dd47c2"
     } ],
-    "uid" : "fdfe30fd33824cc65e8962d746c845c4"
+    "uid" : "ddb1754f092fb7d5153631423a9317c2"
   } ],
   "name" : "timeline"
 }

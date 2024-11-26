@@ -1,4 +1,9 @@
 [ {
+  "buildOrder" : 6,
+  "reportUrl" : "https://manikosto.github.io/fock/",
+  "reportName" : "Allure Report",
+  "data" : { }
+}, {
   "buildOrder" : 5,
   "reportUrl" : "https://manikosto.github.io/fock/",
   "reportName" : "Allure Report",

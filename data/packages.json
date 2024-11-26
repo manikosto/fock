@@ -4,26 +4,26 @@
     "name" : "tests.user_tests.test_example",
     "children" : [ {
       "name" : "Create and post new content for all roles",
-      "uid" : "9c0c96bbfc6815e1",
+      "uid" : "c114360b6ade3d94",
       "parentUid" : "6687269c8e11e66a1764e4a7d7079400",
       "status" : "passed",
       "time" : {
-        "start" : 1732637623509,
-        "stop" : 1732637631424,
-        "duration" : 7915
+        "start" : 1732637954575,
+        "stop" : 1732637962929,
+        "duration" : 8354
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "'I'm ADMIN'", "'admin'" ]
     }, {
       "name" : "Create post",
-      "uid" : "e1b8231072b391cf",
+      "uid" : "dc73f757d718b181",
       "parentUid" : "6687269c8e11e66a1764e4a7d7079400",
-      "status" : "failed",
+      "status" : "passed",
       "time" : {
-        "start" : 1732637632346,
-        "stop" : 1732637635088,
-        "duration" : 2742
+        "start" : 1732637963871,
+        "stop" : 1732637966604,
+        "duration" : 2733
       },
       "flaky" : false,
       "newFailed" : false,
